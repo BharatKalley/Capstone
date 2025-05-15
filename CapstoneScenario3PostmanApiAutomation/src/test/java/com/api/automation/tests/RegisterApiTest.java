@@ -44,4 +44,5 @@ public class RegisterApiTest {
             Assert.assertNotNull(error, "Error message should not be null for negative cases");
         }
     }
+
 }

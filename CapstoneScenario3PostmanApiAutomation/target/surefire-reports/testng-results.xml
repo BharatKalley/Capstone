@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-12T15:18:50 IST" name="Surefire suite" finished-at="2025-05-12T15:18:53 IST" duration-ms="2679">
+  <suite started-at="2025-05-15T22:25:21 IST" name="Surefire suite" finished-at="2025-05-15T22:25:24 IST" duration-ms="2664">
     <groups>
     </groups>
-    <test started-at="2025-05-12T15:18:50 IST" name="Surefire test" finished-at="2025-05-12T15:18:53 IST" duration-ms="2679">
+    <test started-at="2025-05-15T22:25:21 IST" name="Surefire test" finished-at="2025-05-15T22:25:24 IST" duration-ms="2664">
       <class name="com.api.automation.tests.RegisterApiTest">
-        <test-method signature="testRegisterApi(java.lang.String,java.lang.String)[pri:0, instance:com.api.automation.tests.RegisterApiTest@10db82ae]" started-at="2025-05-12T15:18:51 IST" name="testRegisterApi" data-provider="credentialsProvider" finished-at="2025-05-12T15:18:53 IST" duration-ms="1813" status="PASS">
+        <test-method signature="testRegisterApi(java.lang.String,java.lang.String)[pri:0, instance:com.api.automation.tests.RegisterApiTest@7c214cc0]" started-at="2025-05-15T22:25:21 IST" name="testRegisterApi" data-provider="credentialsProvider" finished-at="2025-05-15T22:25:23 IST" duration-ms="1858" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegisterApi -->
-        <test-method signature="testRegisterApi(java.lang.String,java.lang.String)[pri:0, instance:com.api.automation.tests.RegisterApiTest@10db82ae]" started-at="2025-05-12T15:18:53 IST" name="testRegisterApi" data-provider="credentialsProvider" finished-at="2025-05-12T15:18:53 IST" duration-ms="453" status="PASS">
+        <test-method signature="testRegisterApi(java.lang.String,java.lang.String)[pri:0, instance:com.api.automation.tests.RegisterApiTest@7c214cc0]" started-at="2025-05-15T22:25:23 IST" name="testRegisterApi" data-provider="credentialsProvider" finished-at="2025-05-15T22:25:24 IST" duration-ms="450" status="PASS">
           <params>
             <param index="0">
               <value>
