@@ -1,15 +1,11 @@
 package stepDefinitions;
 
-import io.cucumber.java.After;
 import io.cucumber.java.en.*;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
+import util.DriverFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.time.Duration;
@@ -21,8 +17,7 @@ public class StepDefinitions {
 
     @Given("I launch the application {string}")
     public void launchApplication(String url) {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        driver = DriverFactory.getDriver();
         driver.get(url);
         driver.manage().window().maximize();
         logger.info("Application launched successfully with url: {}", url);
@@ -55,8 +50,6 @@ public class StepDefinitions {
                 logger.info("Switched to the new tab with title: {}", driver.getTitle());
                 Assert.assertTrue(driver.getTitle().contains("IFrame"), "Not switched to the new tab!");
                 break;
-            } else {
-                logger.error("Not switched to the new tab. Current title: {}", driver.getTitle());
             }
         }
     }
@@ -106,13 +99,5 @@ public class StepDefinitions {
 
         Assert.assertNotEquals(beforeBase64, afterBase64, "Images are not changing as expected!");
         logger.info("Images are changing successfully.");
-    }
-
-    @After
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-            System.out.println("Browser closed successfully.");
-        }
     }
 }

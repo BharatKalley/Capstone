@@ -1,3 +1,5 @@
+base\BaseClass.class
+util\DriverFactory.class
 runners\TestRunner.class
 stepDefinitions\StepDefinitions.class
-base\BaseClass.class
+hooks\Hooks.class

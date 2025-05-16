@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.api.automation.tests.RegisterApiTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.755 s -- in com.api.automation.tests.RegisterApiTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.360 s -- in com.api.automation.tests.RegisterApiTest
