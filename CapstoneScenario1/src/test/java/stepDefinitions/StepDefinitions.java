@@ -55,6 +55,8 @@ public class StepDefinitions {
                 logger.info("Switched to the new tab with title: {}", driver.getTitle());
                 Assert.assertTrue(driver.getTitle().contains("IFrame"), "Not switched to the new tab!");
                 break;
+            } else {
+                logger.error("Not switched to the new tab. Current title: {}", driver.getTitle());
             }
         }
     }

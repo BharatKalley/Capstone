@@ -31,3 +31,68 @@
 2025-05-15 22:23:02 [main] INFO  StepDefinitions - Image is displayed successfully.
 2025-05-15 22:23:02 [main] INFO  StepDefinitions - Clicked on the right arrow button.
 2025-05-15 22:23:03 [main] INFO  StepDefinitions - Images are changing successfully.
+2025-05-16 12:00:17 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:00:17 [main] INFO  StepDefinitions - Page title verified successfully. Expected: WebdriverUniversity.com (New Approach To Learning), Actual: WebdriverUniversity.com (New Approach To Learning)
+2025-05-16 12:00:21 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:00:21 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:00:22 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:00:26 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:00:27 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:00:28 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:00:28 [main] INFO  StepDefinitions - Looking for the image element...
+2025-05-16 12:00:29 [main] INFO  StepDefinitions - Image is displayed successfully.
+2025-05-16 12:00:32 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:00:33 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:00:34 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:00:35 [main] INFO  StepDefinitions - Looking for the image element...
+2025-05-16 12:00:35 [main] INFO  StepDefinitions - Image is displayed successfully.
+2025-05-16 12:00:35 [main] INFO  StepDefinitions - Clicked on the right arrow button.
+2025-05-16 12:01:09 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:01:09 [main] INFO  StepDefinitions - Page title verified successfully. Expected: WebdriverUniversity.com (New Approach To Learning), Actual: WebdriverUniversity.com (New Approach To Learning)
+2025-05-16 12:01:13 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:01:14 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:01:16 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:01:19 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:01:20 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:01:21 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:01:22 [main] INFO  StepDefinitions - Looking for the image element...
+2025-05-16 12:01:22 [main] INFO  StepDefinitions - Image is displayed successfully.
+2025-05-16 12:01:25 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:01:26 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:01:27 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:01:27 [main] INFO  StepDefinitions - Looking for the image element...
+2025-05-16 12:01:28 [main] INFO  StepDefinitions - Image is displayed successfully.
+2025-05-16 12:01:28 [main] INFO  StepDefinitions - Clicked on the right arrow button.
+2025-05-16 12:06:41 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:06:41 [main] INFO  StepDefinitions - Page title verified successfully. Expected: WebdriverUniversity.com (New Approach To Learning), Actual: WebdriverUniversity.com (New Approach To Learning)
+2025-05-16 12:06:44 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:06:45 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:06:46 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:06:50 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:06:50 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:06:52 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:06:52 [main] INFO  StepDefinitions - Looking for the image element...
+2025-05-16 12:06:52 [main] INFO  StepDefinitions - Image is displayed successfully.
+2025-05-16 12:06:55 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:06:56 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:06:57 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:06:58 [main] INFO  StepDefinitions - Looking for the image element...
+2025-05-16 12:06:58 [main] INFO  StepDefinitions - Image is displayed successfully.
+2025-05-16 12:06:58 [main] INFO  StepDefinitions - Clicked on the right arrow button.
+2025-05-16 12:09:37 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:09:37 [main] INFO  StepDefinitions - Page title verified successfully. Expected: WebdriverUniversity.com (New Approach To Learning), Actual: WebdriverUniversity.com (New Approach To Learning)
+2025-05-16 12:09:41 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:09:41 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:09:43 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:09:46 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:09:46 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:09:48 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:09:48 [main] INFO  StepDefinitions - Looking for the image element...
+2025-05-16 12:09:48 [main] INFO  StepDefinitions - Image is displayed successfully.
+2025-05-16 12:09:52 [main] INFO  StepDefinitions - Application launched successfully with url: http://webdriveruniversity.com/index.html
+2025-05-16 12:09:52 [main] INFO  StepDefinitions - Clicked on the link: IFRAME
+2025-05-16 12:09:54 [main] INFO  StepDefinitions - Switched to the new tab with title: WebDriver | IFrame
+2025-05-16 12:09:54 [main] INFO  StepDefinitions - Looking for the image element...
+2025-05-16 12:09:54 [main] INFO  StepDefinitions - Image is displayed successfully.
+2025-05-16 12:09:54 [main] INFO  StepDefinitions - Clicked on the right arrow button.
+2025-05-16 12:10:04 [main] INFO  StepDefinitions - Images are changing successfully.

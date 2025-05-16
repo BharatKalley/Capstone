@@ -1,0 +1,17 @@
+2025-05-16 11:54:20 [main] INFO  RegisterApiTest - Status Code: 200
+2025-05-16 11:54:20 [main] INFO  RegisterApiTest - Response: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+2025-05-16 11:54:21 [main] INFO  RegisterApiTest - ID: 4
+2025-05-16 11:54:21 [main] INFO  RegisterApiTest - Token: QpwL5tke4Pnpja7X4
+2025-05-16 11:54:21 [main] INFO  RegisterApiTest - Status Code: 400
+2025-05-16 11:54:21 [main] INFO  RegisterApiTest - Response: {
+    "error": "Missing password"
+}
+2025-05-16 11:54:21 [main] ERROR RegisterApiTest - Error: Missing password
+2025-05-16 11:54:22 [main] INFO  RegisterApiTest - Status Code: 400
+2025-05-16 11:54:22 [main] INFO  RegisterApiTest - Response: {
+    "error": "Note: Only defined users succeed registration"
+}
+2025-05-16 11:54:22 [main] ERROR RegisterApiTest - Error: Note: Only defined users succeed registration

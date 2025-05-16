@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,17 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.RegisterApiTest" class="method navigator-link" hash-for-method="testRegisterApi(test2@example.com , password2)">testRegisterApi(test2@example.com , password2)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.RegisterApiTest" class="method navigator-link" hash-for-method="testRegisterApi(invalid.email@reqres.in, wrongpass)">testRegisterApi(invalid.email@reqres.in, wrongpass)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.RegisterApiTest" class="method navigator-link" hash-for-method="testRegisterApi(test1@example.com , password1)">testRegisterApi(test1@example.com , password1)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.RegisterApiTest" class="method navigator-link" hash-for-method="testRegisterApi(eve.holt@reqres.in, pistol)">testRegisterApi(eve.holt@reqres.in, pistol)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.api.automation.tests.RegisterApiTest" class="method navigator-link" hash-for-method="testRegisterApi(missing.password@reqres.in, )">testRegisterApi(missing.password@reqres.in, )</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -131,18 +136,26 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testRegisterApi(test2@example.com , password2)">
-                  </a> <!-- testRegisterApi(test2@example.com , password2) -->
+                  <a name="testRegisterApi(invalid.email@reqres.in, wrongpass)">
+                  </a> <!-- testRegisterApi(invalid.email@reqres.in, wrongpass) -->
                   <span class="method-name">testRegisterApi</span>
-                  <span class="parameters">(test2@example.com ,password2)</span>
+                  <span class="parameters">(invalid.email@reqres.in,wrongpass)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testRegisterApi(test1@example.com , password1)">
-                  </a> <!-- testRegisterApi(test1@example.com , password1) -->
+                  <a name="testRegisterApi(eve.holt@reqres.in, pistol)">
+                  </a> <!-- testRegisterApi(eve.holt@reqres.in, pistol) -->
                   <span class="method-name">testRegisterApi</span>
-                  <span class="parameters">(test1@example.com ,password1)</span>
+                  <span class="parameters">(eve.holt@reqres.in,pistol)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterApi(missing.password@reqres.in, )">
+                  </a> <!-- testRegisterApi(missing.password@reqres.in, ) -->
+                  <span class="method-name">testRegisterApi</span>
+                  <span class="parameters">(missing.password@reqres.in,)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -198,20 +211,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testRegisterApi')
 data.setCell(0, 2, 'com.api.automation.tests.RegisterApiTest')
-data.setCell(0, 3, 1858);
+data.setCell(0, 3, 3566);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testRegisterApi')
 data.setCell(1, 2, 'com.api.automation.tests.RegisterApiTest')
-data.setCell(1, 3, 450);
+data.setCell(1, 3, 658);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testRegisterApi')
+data.setCell(2, 2, 'com.api.automation.tests.RegisterApiTest')
+data.setCell(2, 3, 653);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -239,12 +256,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.automation.tests.RegisterApiTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testRegisterApi(test1@example.com , password1)</span>
+                <span class="method-name">testRegisterApi(eve.holt@reqres.in, pistol)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testRegisterApi(test2@example.com , password2)</span>
-                <span class="method-start">1858 ms</span>
+                <span class="method-name">testRegisterApi(missing.password@reqres.in, )</span>
+                <span class="method-start">3566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegisterApi(invalid.email@reqres.in, wrongpass)</span>
+                <span class="method-start">4226 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

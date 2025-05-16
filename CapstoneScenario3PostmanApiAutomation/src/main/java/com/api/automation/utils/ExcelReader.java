@@ -7,22 +7,28 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class ExcelReader {
-
-    // Private constructor to prevent instantiation
     private ExcelReader() {
-        throw new UnsupportedOperationException("This is a utility class and cannot be instantiated");
+        throw new UnsupportedOperationException("Utility class should not be instantiated");
     }
 
-    public static String[] readCredentials(String filePath, String sheetName, int rowIndex) throws IOException {
-        try (FileInputStream fileInputStream = new FileInputStream(filePath);
-                Workbook workbook = new XSSFWorkbook(fileInputStream)) {
+    public static Object[][] readMultipleCredentials(String filePath, String sheetName) throws IOException {
+        try (FileInputStream fis = new FileInputStream(filePath);
+                Workbook workbook = new XSSFWorkbook(fis)) {
+
             Sheet sheet = workbook.getSheet(sheetName);
+            int rowCount = sheet.getPhysicalNumberOfRows() - 1;
+            Object[][] credentials = new Object[rowCount][2];
 
-            Row row = sheet.getRow(rowIndex);
-            String email = row.getCell(0).getStringCellValue();
-            String password = row.getCell(1).getStringCellValue();
-
-            return new String[] { email, password };
+            for (int i = 1; i <= rowCount; i++) {
+                Row row = sheet.getRow(i);
+                String email = row.getCell(0) != null ? row.getCell(0).toString() : "";
+                String password = row.getCell(1) != null ? row.getCell(1).toString() : "";
+                credentials[i - 1][0] = email;
+                credentials[i - 1][1] = password;
+            }
+            return credentials;
+        } catch (IOException e) {
+            throw new IOException("Error reading Excel file: " + e.getMessage(), e);
         }
     }
 }
